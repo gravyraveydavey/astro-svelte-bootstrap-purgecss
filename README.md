@@ -1,9 +1,11 @@
-# Astro + Svelte Example
+# Astro + Svelte + Bootstrap + PurgeCSS Example
 
-```
-npm init astro -- --template framework-svelte
-```
+for development with HMR run `npm run dev`
+to build the project as a static html export run `npm run build`
+to preview the build (still needs a server) run `npm run preview`
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/framework-svelte)
+Aiming to get a basic working project together using these four frameworks.
 
-This example showcases Astro working with [Svelte](https://svelte.dev/).
+there's some quirks with purgecss at the moment where the dev task won't include svelte component styles, but they come through fine on build
+
+[Based on this svelte astro starter](https://stackblitz.com/github/withastro/astro/tree/latest/examples/framework-svelte)
